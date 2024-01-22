@@ -1,0 +1,31 @@
+.grid-main{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    background-color: aqua;
+}
+.grid-item{
+    background-color:beige;
+    color: brown;
+    border: 5px solid white;
+    padding: 10px;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+}
+ 
+@media (max-width:300px){
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+        background-color: rgb(10,10,10);
+    }
+    .grid-item{
+        background-color: green;
+        border: 1px solid blueviolet;
+        padding: 10px;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+    }
+}
+

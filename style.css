@@ -1,0 +1,13 @@
+.para{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+#list{
+    color: chocolate;
+    background-color: chartreuse;
+}
+*{
+    background-color: darkcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
